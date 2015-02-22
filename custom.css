@@ -9,6 +9,13 @@ When you update your theme, backup this file and re-add it after.
 /* Global */
 .mystyle {}
 
+#disclaimerCC {
+    font-size: 11px;
+}
+
+#credit p {
+    font-size: 12px;
+}
 
 /* Tablet - 800px, 768px & 720px */
 @media only screen and (min-width: 720px) and (max-width: 800px) {
