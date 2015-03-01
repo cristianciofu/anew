@@ -33,9 +33,15 @@
 					else the_excerpt();
 				?>
 			</div><!--/.entry-->
-			
-			<a class="more-link-custom" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><span><i><?php _e('More','anew'); ?></i></span></a>
-			
+
+			<?php
+			if (strpos($post->post_content, '<!--more-->')) {
+			?>
+				<a class="more-link-custom" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><span><i><?php _e('More','anew'); ?></i></span></a>
+			<?php
+				}
+			?>
+
 		</div><!--/.post-content-->
 	
 	</div><!--/.post-inner-->
