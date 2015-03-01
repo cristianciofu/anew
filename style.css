@@ -907,7 +907,6 @@ transition-property: background color; transition-duration: 0.2s; transition-tim
 .format-quote .hex .fa:before { content: "\f10d"; }
 .format-quote .format-container { background: #f8eac4; }
 
-.format-quote .post-title { display: none; }
 .format-quote .post-format blockquote { font-size: 22px; font-weight: 400; line-height: 1.6em; font-style: italic; }
 .format-quote .post-format .quote-author { font-style: italic; }
 
