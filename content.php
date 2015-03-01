@@ -37,7 +37,7 @@
 			<?php
 			if (strpos($post->post_content, '<!--more-->')) {
 			?>
-				<a class="more-link-custom" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><span><i><?php _e('More','anew'); ?></i></span></a>
+				<a class="more-link-custom" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><span><i><?php _e('Citeste continuarea','anew'); ?></i></span></a>
 			<?php
 				}
 			?>
