@@ -1570,3 +1570,11 @@ hr, .hr { border: 0; background: #e5e5e5; border-bottom: 1px solid #fbfbfb; heig
 
 .ie8 .hex.hex-small { height: 32px; line-height: 32px; }
 .ie8 .post-deco .hex { top: -12px; }
+
+
+/* ------------------------------------------------------------------------- *
+ *  IamChris Specific css changes
+/* ------------------------------------------------------------------------- */
+.entry .yarpp-related h3 {
+    text-transform: none!important;
+}
